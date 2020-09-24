@@ -11,8 +11,6 @@
 ```bash
 # 取得工程所需第三方依赖
 yarn
-# 取得最新版本前端框架和公共代码
-yarn upgrade:all
 # 启动本地开发服务器
 yarn dev
 ```
