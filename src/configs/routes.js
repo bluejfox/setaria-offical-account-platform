@@ -15,6 +15,12 @@ export default {
         };
       },
     },
+    {
+      path: '/page-a',
+      name: 'pageA',
+      meta: { title: '页面A' },
+      component: () => import(/* webpackChunkName: "page-a" */ '../views/PageA.vue'),
+    },
     // {
     //   path: '/home',
     //   name: 'Home',
