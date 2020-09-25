@@ -12,6 +12,9 @@ const config = {
     index: process.env.VUE_APP_ENTRY_PAGE_FILE || 'src/main.js',
   },
   configureWebpack: {
+    externals: {
+      wx: 'jWeixin',
+    },
     devtool: process.env.NODE_ENV === 'production' ? false : 'eval-source-map',
     // optimization: {
     //   runtimeChunk: {
