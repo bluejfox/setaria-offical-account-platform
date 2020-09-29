@@ -7426,9 +7426,9 @@ set-value@^2.0.0, set-value@^2.0.1:
     split-string "^3.0.1"
 
 setaria@^0.4.3:
-  version "0.4.6"
-  resolved "https://registry.yarnpkg.com/setaria/-/setaria-0.4.6.tgz#5c296f414554cee5efab219d498e0b5cb2cf3dae"
-  integrity sha512-tgxqVXrN6LOi1BG7KpHVRCt0ESyfRE1kEEblRFY8zotL9uf7arCEa2TbN1hYZ5KKxpHvSw4gDovnjTcqiXOfCw==
+  version "0.4.8"
+  resolved "https://registry.yarnpkg.com/setaria/-/setaria-0.4.8.tgz#022cccc18b0505d49800e789a8db7530bec9f855"
+  integrity sha512-4StpPkvtMR13cI1kDJTHjYjYX9yMybJLIC1TFpUCGoyuTIA67Vrv1BV1UTtQ8hFhmiXayLG+WHplP4wFIfUyhA==
   dependencies:
     axios "^0.15.x"
     lodash.camelcase "^4.3.0"

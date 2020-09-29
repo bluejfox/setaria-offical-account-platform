@@ -3,12 +3,14 @@
     <c-result
       type="error"
       title="出现错误"
-      :message="error"></c-result>
+      :message="error"
+      @click="onClick"></c-result>
   </div>
 </template>
 <script>
 import { constants, util } from 'setaria';
 import { Button, Icon } from 'vant';
+import wxUtil from '../models/wx-util';
 import Result from './Result.vue';
 
 export default {
@@ -21,6 +23,11 @@ export default {
     error() {
       const initialState = this.$store.getters[constants.STORE_KEY.GET_INITIAL_STATE];
       return util.lang.pathOr('', ['error', 'errorMessage'], initialState);
+    },
+  },
+  methods: {
+    onClick() {
+      wxUtil.closeWindow();
     },
   },
 };
